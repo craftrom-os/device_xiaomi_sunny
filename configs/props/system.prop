@@ -7,6 +7,9 @@ ro.charger.enable_suspend=true
 # Display
 debug.force_no_blanking=true
 
+# HWUI
+debug.hwui.skia_atrace_enabled=false
+
 # Netflix custom property
 ro.netflix.bsp_rev=Q6150-17263-1
 
