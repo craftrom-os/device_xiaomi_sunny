@@ -2,6 +2,9 @@
 audio.offload.min.duration.secs=30
 audio.sys.offload.pstimeout.secs=3
 
+# Blur
+ro.launcher.blur.appLaunch=0
+
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
