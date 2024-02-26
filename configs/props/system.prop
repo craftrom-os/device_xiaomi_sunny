@@ -11,7 +11,8 @@ ro.charger.enable_suspend=true
 debug.force_no_blanking=true
 
 # HWUI
-debug.hwui.skia_atrace_enabled=false
+debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
 
 # Netflix custom property
 ro.netflix.bsp_rev=Q6150-17263-1
