@@ -127,6 +127,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
 
+# Reserve space for gapps install
+-include vendor/lineage/config/BoardConfigReservedSize.mk
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728

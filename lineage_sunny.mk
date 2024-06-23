@@ -13,12 +13,13 @@ $(call inherit-product, device/xiaomi/sunny/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+-include vendor/lineage-priv/keys/keys.mk
+
+# CraftRom specific flags
+CUSTOM_MAINTAINER  := melles1991
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# GApps
-WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_sunny
