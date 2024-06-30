@@ -1,6 +1,12 @@
 [  
   {
     "remote"      : "craftrom",
+    "repository"  : "device_xiaomi_sunny",
+    "target_path" : "device/xiaomi/sunny",
+    "branch"      : "uther"
+  },
+  {
+    "remote"      : "craftrom",
     "repository"  : "device_qcom_common",
     "target_path" : "device/qcom/common",
     "branch"      : "uther"
